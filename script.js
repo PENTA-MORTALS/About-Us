@@ -7,7 +7,7 @@ window.addEventListener("load", event => {
             name: "VIDHYA LAKSHMI",
             role: "FRONT-END-DEV",
             desc: "She is an extra-ordinary coder.CIT has named her coding queen.She has done many websites and has won many awards as well.Thanks to her , we were able to pull front-end of blue -valley completly. ",
-            photo: "videe.jpeg",
+            photo: "videe.jpg",
             website: "https://linktr.ee/VidhyaLakshmi",
             email: "mailto:rafaelavlucas@gmail.com",
             linkedin: "http://www.linkedin.com/in/vidhya-l-1aaab61b90",
