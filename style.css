@@ -3,7 +3,10 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css');
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
@@ -22,6 +25,14 @@
 ::-webkit-Scrollbar-track{
 	margin-top: 80px;
 	border-radius: 10px;
+}
+
+:root{
+	--main-background: black;
+	--main-fonts-color: white;
+	--main-decor-color:black;
+    --main-header-background:transparent;
+	 --main-font-family: 'Poppins', sans-serif;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
@@ -574,7 +585,7 @@ opacity: 0;
 /* Testimonial Section
 ********************************************************************* */
 #testimonial {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(251, 253, 255);
 	padding: 100px 0 100px 0;
 }
 .quoteLoop {
@@ -722,6 +733,78 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
+}
+ 
+.buttonsss {
+  backdrop-filter: blur(10px);
+  font-family: fantasy;
+  font-style:bold;
+  font-size: 0.3em;
+  border-radius: 40px;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 3px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 14px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.buttonsss1 {
+
+  background-color: rgba(175, 175, 175, 0.61); 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgba(0, 0, 0, 0);
+}
+
+.buttonsss1:hover {
+   border: 2px solid  rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: white;
+ 
+}
+ab{
+ background-color: rgba(175, 175, 175, 0.205); 
+  color: rgb(0, 0, 0); 
+  border: 5px solid rgba(0, 0, 0, 0);
+ 
+ padding-right:170px;
+backdrop-filter: blur(50px);
+ 
+}
+#contactsss{
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	height: 490px;
+	display: flex;
+	font-size:7.2rem;
+  flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+  background:rgb(255, 255, 255);
+}
+	
+#contactsss pe{
+	padding:10px;
+    font-style:bold;
+	text-align:center;
+	font-size:3.2rem;
+	font-family: var(--main-font-family);
+}
+#contactsss ae{
+	padding:10px;
+	text-align:center;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+}
+#contactsss h3{
+
+	text-align:center;
+	font-size:4.2rem;
+	
 }
 
 
@@ -1329,4 +1412,5 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
  .wrapper .module-team .team .team-cards .navigation .swiper-button-next:hover {
 	 transform: translateX(0px);
 }
+
  
