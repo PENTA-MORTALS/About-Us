@@ -3,21 +3,22 @@ window.addEventListener("load", event => {
     var swiperWrapper = document.querySelector('.swiper-wrapper');
 
     /* The Team */
-    var team = [{
+    var team = [
+      	 {
             name: "VIDHYA LAKSHMI",
-            role: "FRONT-END-DEV",
-            desc: "She is an extra-ordinary coder.CIT has named her coding queen.She has done many websites and has won many awards as well.Thanks to her , we were able to pull front-end of blue -valley completly. ",
+            role: "WANDA-CODELADY",
+            desc: "Meet the real Wanda , as she casts various spells and charms across the computers to act accordingly to her will.She is front-end executioner and that too in perfection.",
             photo: "videe.jpg",
             website: "https://linktr.ee/VidhyaLakshmi",
             email: "mailto:rafaelavlucas@gmail.com",
-            linkedin: "http://www.linkedin.com/in/vidhya-l-1aaab61b90",
+            linkedin: "https://www.linkedin.com/in/vidhya-l-1aaab61b90",
+	          dribbble: "https://dribbble.com/rafaelalucas",
           
         },
-        
         {
             name: "VARSHINI K",
             role: "SILENT-KILLER",
-            desc: " CIT have named her as LORD BACK-END-DEV on her contribution for suggesting to keep online classes.She has done a wonderfull job in backend and watson . we are in  much  gratitude of her contribution to our team. " ,
+            desc: "Guys , chill! she is not a murderer , She got her name from her deadly skills she uses to get her way into anything she wants to code.For the fact,Chat-BOT Watson wasnt lucky after all. " ,
             photo: "idkher.jpeg",
             website: "https://www.instagram.com/varshini_karthikk_/",
             email: "mailto:rafaelavlucas@gmail.com",
@@ -27,7 +28,7 @@ window.addEventListener("load", event => {
         {
             name: "DHANYA ",
             role: "HUMBLE-BOSS",
-            desc: "She is the ultimate boss , with splendid ideas for creativity . She gave amazing ideas for marketing(U know wat we mean).She worked with watson with Varshi and helped in content ,",
+            desc: "She is the ultimate boss, with splendid ideas for creativity . She gave amazing ideas for marketing(U know wat we mean). She worked with watson with Varshi and helped in content.",
             photo: "bts.jpeg",
             website: "https://rafaelalucas.com",
             email: "mailto:rafaelavlucas@gmail.com",
@@ -37,7 +38,7 @@ window.addEventListener("load", event => {
         {
             name: "AATIQ HUSSAIN",
             role: "LEAD CRAZY",
-            desc: "Die hard star wars fan who doesnt even knows abt star wars. He is the Genius behind the theory of Nothing.He is team lead coordinatior of the team and UI/UX Coordinator",
+            desc: "Die hard star wars fan who doesnt even knows abt star wars. He is the Genius behind the theory of Nothing.He is team lead coordinatior of the team and UI/UX Coordinator.",
             photo: "me.jpeg",
             website: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             email: "mailto:rafaelavlucas@gmail.com",
@@ -47,7 +48,7 @@ window.addEventListener("load", event => {
         {
             name: "SRI SAI RAJ",
             role: "IDEA PITCHER",
-            desc: "He comes accros brilliant ideas and has a very well way of explaining . He is the winner of CIT Ted talks. He is the one with the gift of explainaition in terms of perfection",
+            desc: "He comes accros brilliant ideas and has a very well way of explaining . He is the winner of CIT Ted talks. He is the one with the gift of explainaition in terms of perfection.",
             photo: "sri.jpg",
             website: "https://www.instagram.com/srisai___chaitanya/",
             email: "mailto:rafaelavlucas@gmail.com",
