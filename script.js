@@ -4,6 +4,17 @@ window.addEventListener("load", event => {
 
     /* The Team */
     var team = [
+	    {
+            name: "VASANTH RAJ ",
+            role: "MENTOR",
+            desc: "Professor at CIT. He helped in mentoring us for Blue Valley project. A man with gift of explanation to its fittest & communication in its top . We are very greatful to have him in our team",
+            photo: "vas.jpg",
+            website: "https://www.linkedin.com/in/vasanth-raj-03a53a40/",
+            email: "mailto:rafaelavlucas@gmail.com",
+            linkedin: "https://www.linkedin.com/in/vasanth-raj-03a53a40/",
+	          dribbble: "https://dribbble.com/rafaelalucas",
+          
+        },
       	 {
             name: "VIDHYA LAKSHMI",
             role: "WANDA-CODELADY",
